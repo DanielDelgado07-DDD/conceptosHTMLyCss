@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    /* de 2px, negro y punteado */
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+#two{
+    background-color: greenyellow;
+}

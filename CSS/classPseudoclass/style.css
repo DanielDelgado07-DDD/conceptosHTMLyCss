@@ -1,0 +1,43 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;  /*none: Quita los bullets o puntos de la lista*/
+    padding-left: 0;/*Padding: Es un espacio interno en un contenedor*/
+    background-color:darkolivegreen;
+}
+.main-nav__item{
+    display: inline-block; /*inline-block: Ubicar los items de forma horizontal*/
+}
+
+.main-nav__item a{
+       color: white; 
+       padding: 5px;/*Espacio entre cada item*/
+       border-radius: 15px;
+       text-decoration: none;/*none: Quitar el subrayado*/
+        background-color: red; /*como manejar las formas de las cajas*/
+}
+/*pseudo clases :*/
+.main-nav__item a:hover{/* Hover: Efecto o estado, cuando el mouse esta arriba del elemento*/
+    color:blue;
+}
+.main-nav__item a:active{/* Active: Cuando le doy click al elemento*/
+    color:darkgoldenrod;
+}
+
+/*pseudo elementos*/
+.main-nav__item a::after{/* After: Despues de ese contenido, agreguele el siguiente texto. */
+    content: " | ";
+}
+.main-nav__item a::before{
+    content: " | ";
+}
+/* RESUMEN */
+/* Pseudo classes
+:class Define el estilo de un estado especial de un elemento, por lo general cuando el usuario intereactúa. Es una palabra clave que se añade a los selectores y que
+especifica un estado especial del elemento seleccionado.
+
+Pseudo elementos
+::element Define el estilo de una parte especifica de un elemento. Permiten añadir o cambiar elementos HTML a una parte concreta del documento.*/
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos
+https://en.bem.info/methodology/faq/#why-bem */

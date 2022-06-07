@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height:100vh;
+    background-color: aqua;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+     /* Limita el crecimiento del width*/
+    max-width:500px;
+    /* height: 500px; */
+    /*esto dice como minimo un height de 500px pero auto hasta finalizar el parrafo*/
+    min-height: 500px;
+    /*ajusta la margin de abajo hacia arriba no le hace nada porque esta en 0
+     de izq y derecha lo centra, */
+    
+    margin: 0 auto; 
+    
+    background-color: red;
+}

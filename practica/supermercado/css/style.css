@@ -1,0 +1,84 @@
+
+header{
+    background-color: black;
+}
+body{
+    background-color:rgb(3, 37, 88);
+}
+
+img{
+    width:45px;
+    height: 45px;
+    opacity: 1;
+  
+} 
+figcaption{
+    font-size: x-small;
+}
+
+h1{
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.listas {
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 5px white;
+    background-color: rgb(45, 138, 214);
+    margin: 5px;
+   
+}
+
+.listas1 {
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 5px white;
+    background-color: burlywood;
+    margin: 5px;
+   
+}
+.listas2 {
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 5px white;
+    background-color: rgb(184, 188, 190);
+    margin: 5px;
+   
+}
+.listas3 {
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 5px white;
+    background-color: rgb(83, 107, 79);
+    margin: 5px;
+   
+}
+.listas4 {
+    padding: 5px;
+    border-radius: 30px;
+    border: solid 5px white;
+    background-color: rgb(212, 135, 145);
+    margin: 5px;
+   
+}
+
+#id-list{
+    font-size: 20px;
+    font-style: oblique;
+   font-weight: bold;
+   padding-bottom: 5px;
+}
+.padre{
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    text-align: left;
+ }
+ footer{
+    background-color: black;
+    
+    color: aliceblue;
+    font-size: 40px;
+ }

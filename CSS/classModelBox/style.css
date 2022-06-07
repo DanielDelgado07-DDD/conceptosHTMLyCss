@@ -1,0 +1,13 @@
+*{
+   box-sizing: border-box; /*Ajusta el tamanio del elemento no se salga del navegador*/
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px; /*agrega padding a los 4 lados*/
+    /* padding: 20px 35px; agregar padding separado  arriba-abajo y izquierda-derecha */
+}

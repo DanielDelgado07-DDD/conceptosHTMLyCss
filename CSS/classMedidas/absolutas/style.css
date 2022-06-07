@@ -1,0 +1,14 @@
+main{
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+
+/*Medidad absoluta no va a cambiar */
+p{ 
+     font-size: 16px;
+}
+/*Medida relativa*/
+/* p{
+    font-size: 50%;
+} */

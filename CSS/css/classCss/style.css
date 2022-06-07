@@ -1,0 +1,16 @@
+/* por elemento  */
+p {
+    color: rgb(13, 17, 240);
+    font-size: 45px;
+}
+/* por clase */
+.parrafo2 {
+    color:chocolate;
+    font-size: 35px;
+}
+/* por Id */
+
+#parrafo3 {
+    color:dodgerblue;
+    font-size: 30px;
+}

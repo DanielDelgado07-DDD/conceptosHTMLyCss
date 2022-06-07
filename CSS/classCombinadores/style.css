@@ -1,0 +1,18 @@
+/*Esto es  hermano adyacente o cercano*/
+/* h2+p{
+    color: red;
+} */
+/*Esto es hermano general,
+ cambia en este caso todos los parrafos sin importar donde este a color rojo*/
+/* h2~p{
+    color:red;
+} */
+/* Esto es una etiqueta child, hijo directo */
+/* div>p{
+    color:red;
+} */
+/* Esto es un Descendiente, 
+todo lo que este contenido dentro del div con etiqueta p aplicarle color rojo */
+div p{
+    color:red;
+}
