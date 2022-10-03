@@ -1,2 +1,2 @@
-# conceptosHTMLyCss
-relacion a HTML y css , practicas, y conocimiento
+# conceptosHTML y CSS
+relacionado a HTML y CSS , practicas, y conocimiento
